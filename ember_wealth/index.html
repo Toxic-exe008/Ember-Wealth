@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arjun Mehta — Independent Wealth Advisor & Financial Strategist. Helping high-net-worth individuals and families build, protect, and grow their wealth with clarity." />
+  <meta name="keywords" content="financial advisor, wealth management, investment planning, retirement strategy, Arjun Mehta, Meridian Wealth" />
+  <title>Arjun Mehta | Meridian Wealth Advisory</title>
+
+  <!-- Performance: preconnect for images -->
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="dns-prefetch" href="https://images.unsplash.com" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="light-theme" id="body">
+
+  <!-- ============================================================
+       PRELOADER
+  ============================================================ -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <div class="preloader__logo">
+        <span class="preloader__monogram">AM</span>
+      </div>
+      <div class="preloader__bar">
+        <div class="preloader__fill"></div>
+      </div>
+      <p class="preloader__tagline">Meridian Wealth Advisory</p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__container">
+
+      <!-- Brand -->
+      <a href="#home" class="navbar__brand" aria-label="Arjun Mehta Home">
+        <span class="navbar__brand-mark">AM</span>
+        <span class="navbar__brand-text">
+          <span class="navbar__brand-name">Arjun Mehta</span>
+          <span class="navbar__brand-sub">Meridian Wealth Advisory</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="navbar__nav" aria-label="Primary navigation">
+        <ul class="navbar__links" role="list">
+          <li><a href="#home"         class="navbar__link">Home</a></li>
+          <li><a href="#about"        class="navbar__link">About</a></li>
+          <li><a href="#services"     class="navbar__link">Services</a></li>
+          <li><a href="#experience"   class="navbar__link">Experience</a></li>
+          <li><a href="#results"      class="navbar__link">Results</a></li>
+          <li><a href="#testimonials" class="navbar__link">Testimonials</a></li>
+          <li><a href="#faq"          class="navbar__link">FAQ</a></li>
+          <li><a href="#contact"      class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navbar Actions -->
+      <div class="navbar__actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme" title="Switch theme">
+          <span class="theme-toggle__track">
+            <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+              <i class="ph ph-sun"></i>
+            </span>
+            <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+              <i class="ph ph-moon"></i>
+            </span>
+            <span class="theme-toggle__thumb"></span>
+          </span>
+        </button>
+
+        <!-- CTA -->
+        <a href="#contact" class="btn btn--primary btn--nav">Book Consultation</a>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+      <nav aria-label="Mobile navigation">
+        <ul class="mobile-menu__links" role="list">
+          <li><a href="#home"         class="mobile-menu__link">Home</a></li>
+          <li><a href="#about"        class="mobile-menu__link">About</a></li>
+          <li><a href="#services"     class="mobile-menu__link">Services</a></li>
+          <li><a href="#experience"   class="mobile-menu__link">Experience</a></li>
+          <li><a href="#results"      class="mobile-menu__link">Results</a></li>
+          <li><a href="#testimonials" class="mobile-menu__link">Testimonials</a></li>
+          <li><a href="#faq"          class="mobile-menu__link">FAQ</a></li>
+          <li><a href="#contact"      class="mobile-menu__link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--primary btn--full-mobile">Book Consultation</a>
+      </nav>
+    </div>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home" aria-label="Hero introduction">
+    <div class="hero__bg-accent" aria-hidden="true"></div>
+
+    <div class="container hero__container">
+
+      <!-- Left: Text Content -->
+      <div class="hero__content reveal-left">
+        <div class="hero__badge">
+          <i class="ph ph-seal-check" aria-hidden="true"></i>
+          <span>SEBI Registered Investment Advisor</span>
+        </div>
+
+        <h1 class="hero__headline">
+          Your wealth,<br />
+          <em>strategically</em><br />
+          protected.
+        </h1>
+
+        <p class="hero__subheadline">
+          Independent financial advisory for professionals, entrepreneurs, and
+          families who want clarity, confidence, and a plan built around their life — not a product.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="#contact"  class="btn btn--primary btn--lg magnetic-btn">
+            <i class="ph ph-calendar-check" aria-hidden="true"></i>
+            Book a Free Consultation
+          </a>
+          <a href="#services" class="btn btn--ghost btn--lg">
+            View Services
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="hero__trust-row">
+          <div class="hero__trust-item">
+            <strong>15+</strong>
+            <span>Years Advisory</span>
+          </div>
+          <div class="hero__trust-divider" aria-hidden="true"></div>
+          <div class="hero__trust-item">
+            <strong>₹480Cr+</strong>
+            <span>Assets Managed</span>
+          </div>
+          <div class="hero__trust-divider" aria-hidden="true"></div>
+          <div class="hero__trust-item">
+            <strong>320+</strong>
+            <span>Families Advised</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Image Composition -->
+      <div class="hero__visual reveal-right" aria-hidden="true">
+
+        <!-- Main Portrait Image -->
+        <div class="hero__img-main">
+          <!--
+            IMAGE PLACEHOLDER — Main portrait of a professional male financial advisor
+            Suggested: Professional headshot, suit, confident smile, office background
+            Dimensions: approx 480x580px, portrait orientation
+          -->
+          <img
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=960&q=80&auto=format&fit=crop"
+            alt="Arjun Mehta — Financial Advisor and Wealth Strategist"
+            class="hero__portrait"
+            loading="eager" decoding="async" fetchpriority="high"
+            width="480"
+            height="580"
+          />
+          <div class="hero__img-frame" aria-hidden="true"></div>
+        </div>
+
+        <!-- Floating Card 1: Quick intro -->
+        <div class="hero__float-card hero__float-card--top">
+          <div class="hero__float-card-icon">
+            <i class="ph ph-chart-line-up"></i>
+          </div>
+          <div>
+            <p class="hero__float-label">Portfolio Growth</p>
+            <p class="hero__float-value">Avg. 14.6% CAGR</p>
+          </div>
+        </div>
+
+        <!-- Floating Card 2: Availability -->
+        <div class="hero__float-card hero__float-card--bottom">
+          <div class="hero__float-card-dot hero__float-card-dot--online" aria-hidden="true"></div>
+          <div>
+            <p class="hero__float-label">Consultation</p>
+            <p class="hero__float-value">In-Person &amp; Online</p>
+          </div>
+        </div>
+
+        <!-- Small inset image -->
+        <div class="hero__img-inset">
+          <!--
+            IMAGE PLACEHOLDER — Small secondary image
+            Suggested: Advisor in a meeting, reviewing charts, or a premium office interior
+            Dimensions: approx 160x160px, square
+          -->
+          <img
+            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=320&q=80&auto=format&fit=crop"
+            alt="Arjun Mehta in client consultation"
+            class="hero__inset-photo"
+            loading="lazy" decoding="async"
+            width="160"
+            height="160"
+          />
+        </div>
+
+      </div><!-- /.hero__visual -->
+    </div><!-- /.hero__container -->
+
+    <!-- Scroll Indicator -->
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT / INTRO SECTION
+  ============================================================ -->
+  <section class="about section" id="about" aria-label="About Arjun Mehta">
+    <div class="container">
+
+      <div class="about__grid">
+
+        <!-- Left: Image Column -->
+        <div class="about__image-col reveal-left">
+          <div class="about__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Semi-formal portrait or workspace image
+              Suggested: Advisor at desk, reviewing documents, warm lighting, premium office
+              Dimensions: approx 500x600px, portrait
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&auto=format&fit=crop"
+              alt="Arjun Mehta at his advisory office"
+              class="about__img"
+              loading="lazy" decoding="async"
+              width="500"
+              height="600"
+            />
+            <!-- Decorative element -->
+            <div class="about__img-accent" aria-hidden="true">
+              <span class="about__years-badge">
+                <strong>15</strong>
+                <small>Years of<br/>Practice</small>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Text Column -->
+        <div class="about__text-col reveal-right">
+          <div class="section__label">About Me</div>
+          <h2 class="section__heading">
+            Financial clarity starts with understanding <em>your</em> goals — not the market.
+          </h2>
+          <p class="about__intro">
+            I'm Arjun Mehta, an independent SEBI-registered investment advisor and wealth strategist based in Bengaluru.
+            After over a decade at two of India's leading asset management firms, I founded Meridian Wealth Advisory
+            to offer something the industry rarely provides: unbiased, client-first financial guidance.
+          </p>
+          <p class="about__body">
+            My practice is intentionally small. I work with a limited number of clients each year — professionals,
+            business owners, and multi-generational families — because I believe genuinely thoughtful advice
+            requires time, depth, and a relationship built on trust. Every engagement begins with listening,
+            not selling.
+          </p>
+
+          <a href="#contact" class="btn btn--primary about__cta magnetic-btn">
+            Let's Have a Conversation
+            <i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div><!-- /.about__grid -->
+
+      <!-- Feature Cards Row -->
+      <div class="about__cards reveal-up">
+        <!-- Card 1 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <i class="ph ph-shield-check"></i>
+          </div>
+          <h3 class="feature-card__title">Fiduciary Always</h3>
+          <p class="feature-card__text">
+            As a SEBI-registered advisor, I am legally required to act in your best interest — not earn commissions
+            from products I recommend. Your interests come first, always.
+          </p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <i class="ph ph-user-focus"></i>
+          </div>
+          <h3 class="feature-card__title">Truly Personalised</h3>
+          <p class="feature-card__text">
+            No cookie-cutter plans. Every strategy is built from scratch around your income structure, risk appetite,
+            life goals, and family dynamics. This is advice made for you.
+          </p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">
+            <i class="ph ph-chats-circle"></i>
+          </div>
+          <h3 class="feature-card__title">Radical Transparency</h3>
+          <p class="feature-card__text">
+            I explain everything in plain language — no jargon, no pressure. You will always know exactly
+            what you own, why you own it, and what it costs.
+          </p>
+        </article>
+      </div>
+
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section class="services section section--alt" id="services" aria-label="Services offered">
+    <div class="container">
+
+      <div class="section__header text-center reveal-up">
+        <div class="section__label">What I Offer</div>
+        <h2 class="section__heading section__heading--center">
+          Advisory services built for <em>clarity</em> and long-term confidence.
+        </h2>
+        <p class="section__subtext">
+          Whether you are planning for retirement, protecting your estate, or navigating a major financial event,
+          I offer focused advisory across every critical area of personal finance.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services__grid">
+
+        <!-- Service 1 -->
+        <article class="service-card reveal-up" style="--delay: 0ms">
+          <div class="service-card__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Investment / Portfolio Planning
+              Suggested: Financial charts on screen, stock market graphs, premium office desk
+              Dimensions: approx 400x220px, landscape
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80&auto=format&fit=crop"
+              alt="Investment & Portfolio Planning"
+              class="service-card__image"
+              loading="lazy" decoding="async"
+              width="400"
+              height="220"
+            />
+            <div class="service-card__image-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon"><i class="ph ph-chart-pie-slice"></i></div>
+            <h3 class="service-card__title">Investment Planning</h3>
+            <p class="service-card__text">
+              Structured, goal-linked investment portfolios using equities, debt, and alternative assets.
+              Designed to outperform inflation while respecting your risk boundaries.
+            </p>
+            <span class="service-card__tag">Portfolios · Mutual Funds · Direct Equity</span>
+          </div>
+        </article>
+
+        <!-- Service 2 -->
+        <article class="service-card reveal-up" style="--delay: 100ms">
+          <div class="service-card__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Retirement Strategy
+              Suggested: Calm retired couple, peaceful lifestyle, financial planning documents
+              Dimensions: approx 400x220px, landscape
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=800&q=80&auto=format&fit=crop"
+              alt="Retirement Strategy and Planning"
+              class="service-card__image"
+              loading="lazy" decoding="async"
+              width="400"
+              height="220"
+            />
+            <div class="service-card__image-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon"><i class="ph ph-island"></i></div>
+            <h3 class="service-card__title">Retirement Strategy</h3>
+            <p class="service-card__text">
+              Build a retirement corpus that lets you live on your own terms. I model multiple scenarios,
+              stress-test them, and give you a plan that is realistic and resilient.
+            </p>
+            <span class="service-card__tag">NPS · Annuities · SWP · Corpus Planning</span>
+          </div>
+        </article>
+
+        <!-- Service 3 -->
+        <article class="service-card reveal-up" style="--delay: 200ms">
+          <div class="service-card__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Tax & Estate Advisory
+              Suggested: Legal documents, estate planning, advisor with documents, formal setting
+              Dimensions: approx 400x220px, landscape
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80&auto=format&fit=crop"
+              alt="Tax and Estate Advisory"
+              class="service-card__image"
+              loading="lazy" decoding="async"
+              width="400"
+              height="220"
+            />
+            <div class="service-card__image-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon"><i class="ph ph-buildings"></i></div>
+            <h3 class="service-card__title">Tax &amp; Estate Advisory</h3>
+            <p class="service-card__text">
+              Minimise tax liability legally, structure your estate effectively, and ensure your
+              wealth is transferred to the right people in the right way.
+            </p>
+            <span class="service-card__tag">Will Planning · HUF · LTCG · Structuring</span>
+          </div>
+        </article>
+
+        <!-- Service 4 -->
+        <article class="service-card reveal-up" style="--delay: 300ms">
+          <div class="service-card__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Insurance & Risk
+              Suggested: Protection concept, umbrella over family, professional risk review
+              Dimensions: approx 400x220px, landscape
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80&auto=format&fit=crop"
+              alt="Insurance and Risk Protection"
+              class="service-card__image"
+              loading="lazy" decoding="async"
+              width="400"
+              height="220"
+            />
+            <div class="service-card__image-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon"><i class="ph ph-umbrella"></i></div>
+            <h3 class="service-card__title">Insurance &amp; Risk</h3>
+            <p class="service-card__text">
+              Audit your existing covers, eliminate overpayments, and ensure your life, health,
+              and income are protected in a way that makes financial sense.
+            </p>
+            <span class="service-card__tag">Term · Health · Critical Illness · Audit</span>
+          </div>
+        </article>
+
+        <!-- Service 5 -->
+        <article class="service-card reveal-up" style="--delay: 400ms">
+          <div class="service-card__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Business Owner Finance
+              Suggested: Entrepreneur, business financial review, boardroom setting
+              Dimensions: approx 400x220px, landscape
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80&auto=format&fit=crop"
+              alt="Business Owner Financial Planning"
+              class="service-card__image"
+              loading="lazy" decoding="async"
+              width="400"
+              height="220"
+            />
+            <div class="service-card__image-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon"><i class="ph ph-briefcase"></i></div>
+            <h3 class="service-card__title">Business Owners</h3>
+            <p class="service-card__text">
+              Separate personal wealth from business risk, plan a succession strategy, and
+              structure exit events to maximise your take-home at liquidity.
+            </p>
+            <span class="service-card__tag">Succession · ESOP · Liquidity · Exits</span>
+          </div>
+        </article>
+
+        <!-- Service 6 -->
+        <article class="service-card reveal-up" style="--delay: 500ms">
+          <div class="service-card__image-wrap">
+            <!--
+              IMAGE PLACEHOLDER — Comprehensive Financial Review
+              Suggested: Advisor and client reviewing documents, premium consultation room
+              Dimensions: approx 400x220px, landscape
+            -->
+            <img
+              src="https://images.unsplash.com/photo-1551836022-8b2858c9c69b?w=800&q=80&auto=format&fit=crop"
+              alt="Comprehensive Financial Review"
+              class="service-card__image"
+              loading="lazy" decoding="async"
+              width="400"
+              height="220"
+            />
+            <div class="service-card__image-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon"><i class="ph ph-magnifying-glass"></i></div>
+            <h3 class="service-card__title">Financial Health Check</h3>
+            <p class="service-card__text">
+              A thorough 360° review of your complete financial position — investments, liabilities,
+              insurance, tax, and goals. Ideal for new clients and annual reviews.
+            </p>
+            <span class="service-card__tag">Audit · Analysis · Roadmap · Strategy</span>
+          </div>
+        </article>
+
+      </div><!-- /.services__grid -->
+
+      <div class="services__footer text-center reveal-up">
+        <p class="services__footer-text">Not sure which service fits your situation?</p>
+        <a href="#contact" class="btn btn--outline magnetic-btn">
+          Let's talk and find out
+          <i class="ph ph-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       EXPERIENCE / TIMELINE SECTION
+  ============================================================ -->
+  <section class="experience section" id="experience" aria-label="Professional experience and credentials">
+    <div class="container">
+
+      <div class="experience__grid">
+
+        <!-- Left: Section Header + Credentials -->
+        <div class="experience__intro reveal-left">
+          <div class="section__label">Background</div>
+          <h2 class="section__heading">
+            Fifteen years of <em>practice</em> across markets, clients, and economic cycles.
+          </h2>
+          <p class="experience__text">
+            I have spent my career at the intersection of deep financial analysis and human-centred
+            client relationships — first within institutions, and now as an independent advisor
+            whose only allegiance is to the people I serve.
+          </p>
+
+          <!-- Credentials Grid -->
+          <div class="credentials">
+            <div class="credential-item reveal-up" style="--delay: 0ms">
+              <i class="ph ph-graduation-cap"></i>
+              <div>
+                <strong>MBA Finance</strong>
+                <span>IIM Bangalore, 2009</span>
+              </div>
+            </div>
+            <div class="credential-item reveal-up" style="--delay: 80ms">
+              <i class="ph ph-certificate"></i>
+              <div>
+                <strong>CFA Charterholder</strong>
+                <span>CFA Institute, USA</span>
+              </div>
+            </div>
+            <div class="credential-item reveal-up" style="--delay: 160ms">
+              <i class="ph ph-seal-check"></i>
+              <div>
+                <strong>SEBI RIA</strong>
+                <span>Reg. No. INA200013XXX</span>
+              </div>
+            </div>
+            <div class="credential-item reveal-up" style="--delay: 240ms">
+              <i class="ph ph-trophy"></i>
+              <div>
+                <strong>CFP Certified</strong>
+                <span>FPSB India, 2014</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Timeline -->
+        <div class="timeline reveal-right">
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true">
+              <span class="timeline__year">2024</span>
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Founder — Meridian Wealth Advisory</h3>
+              <p class="timeline__desc">
+                Established independent fee-only practice. Currently advising 320+ families and professionals
+                across Bengaluru, Mumbai, and Delhi with combined AUM exceeding ₹480 crore.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true">
+              <span class="timeline__year">2018</span>
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Senior Wealth Manager — Kotak Private Banking</h3>
+              <p class="timeline__desc">
+                Managed a portfolio of 80 ultra-HNI clients with combined wealth over ₹1,200 crore.
+                Specialised in multi-asset portfolio construction and estate planning advisory.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true">
+              <span class="timeline__year">2013</span>
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Wealth Advisor — ICICI Direct, Premium Services</h3>
+              <p class="timeline__desc">
+                Led a team of five advisors covering HNI client relationships. Developed the branch's
+                flagship retirement planning programme adopted across 12 additional branches.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true">
+              <span class="timeline__year">2009</span>
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Equity Research Analyst — Motilal Oswal</h3>
+              <p class="timeline__desc">
+                Initiated coverage of BFSI sector equities. Developed fundamental analysis frameworks
+                that directly informed advisory strategies throughout subsequent career.
+              </p>
+            </div>
+          </div>
+
+        </div><!-- /.timeline -->
+      </div><!-- /.experience__grid -->
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       RESULTS / STATS SECTION
+  ============================================================ -->
+  <section class="results section section--dark-accent" id="results" aria-label="Key results and credentials">
+    <div class="container">
+
+      <div class="section__header text-center reveal-up">
+        <div class="section__label section__label--light">By the Numbers</div>
+        <h2 class="section__heading section__heading--center results__heading">
+          Consistency you can measure. Trust you can feel.
+        </h2>
+      </div>
+
+      <div class="stats__grid reveal-up">
+
+        <div class="stat-card">
+          <div class="stat-card__icon"><i class="ph ph-users-three"></i></div>
+          <div class="stat-card__number counter" data-target="320">0</div>
+          <div class="stat-card__suffix">+</div>
+          <div class="stat-card__label">Families Advised</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-card__icon"><i class="ph ph-timer"></i></div>
+          <div class="stat-card__number counter" data-target="15">0</div>
+          <div class="stat-card__suffix">+</div>
+          <div class="stat-card__label">Years in Practice</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-card__icon"><i class="ph ph-currency-inr"></i></div>
+          <div class="stat-card__number counter" data-target="480">0</div>
+          <div class="stat-card__suffix">Cr+</div>
+          <div class="stat-card__label">Assets Under Advisory</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-card__icon"><i class="ph ph-smiley"></i></div>
+          <div class="stat-card__number counter" data-target="97">0</div>
+          <div class="stat-card__suffix">%</div>
+          <div class="stat-card__label">Client Retention Rate</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-card__icon"><i class="ph ph-chart-line-up"></i></div>
+          <div class="stat-card__number">14.6</div>
+          <div class="stat-card__suffix">%</div>
+          <div class="stat-card__label">Avg. Portfolio CAGR</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-card__icon"><i class="ph ph-clock-countdown"></i></div>
+          <div class="stat-card__number">24</div>
+          <div class="stat-card__suffix">hr</div>
+          <div class="stat-card__label">Response Guarantee</div>
+        </div>
+
+      </div><!-- /.stats__grid -->
+
+      <!-- Results Image -->
+      <div class="results__image-row reveal-up">
+        <!--
+          IMAGE PLACEHOLDER — Wide premium office or workspace interior
+          Suggested: Premium financial advisory office, Bengaluru skyline, modern workspace
+          Dimensions: approx 1200x400px, wide landscape
+        -->
+        <img
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80&auto=format&fit=crop"
+          alt="Meridian Wealth Advisory — Bengaluru Office"
+          class="results__office-img"
+          loading="lazy" decoding="async"
+          width="1200"
+          height="400"
+        />
+      </div>
+
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="testimonials section" id="testimonials" aria-label="Client testimonials">
+    <div class="container">
+
+      <div class="section__header text-center reveal-up">
+        <div class="section__label">Client Stories</div>
+        <h2 class="section__heading section__heading--center">
+          What clients say after working with Meridian.
+        </h2>
+        <p class="section__subtext">
+          These are real perspectives from professionals and families I have had the privilege of working with.
+        </p>
+      </div>
+
+      <div class="testimonials__grid">
+
+        <!-- Testimonial 1 -->
+        <article class="testimonial-card reveal-up" style="--delay: 0ms">
+          <div class="testimonial-card__quote-icon" aria-hidden="true">
+            <i class="ph ph-quotes"></i>
+          </div>
+          <blockquote class="testimonial-card__text">
+            Before Arjun, our finances were a scattered mess of FDs, random mutual funds, and
+            endowment plans our bank had sold us over the years. Within six months he restructured
+            everything, reduced our tax outgo significantly, and gave us a clear retirement target.
+            For the first time, I actually understand our money.
+          </blockquote>
+          <footer class="testimonial-card__footer">
+            <div class="testimonial-card__avatar">
+              <!--
+                IMAGE PLACEHOLDER — Client avatar / headshot (female professional)
+                Suggested: Friendly professional female headshot, 50x50px circle
+              -->
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&auto=format&fit=crop&crop=face"
+                alt="Priya Nair"
+                class="testimonial-card__photo"
+                loading="lazy" decoding="async"
+                width="50"
+                height="50"
+              />
+            </div>
+            <div class="testimonial-card__info">
+              <strong>Priya Nair</strong>
+              <span>Director, MNC — Bengaluru</span>
+            </div>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Testimonial 2 -->
+        <article class="testimonial-card reveal-up" style="--delay: 150ms">
+          <div class="testimonial-card__quote-icon" aria-hidden="true">
+            <i class="ph ph-quotes"></i>
+          </div>
+          <blockquote class="testimonial-card__text">
+            I sold my startup last year and suddenly had a significant liquidity event to manage.
+            Arjun helped me structure the proceeds, plan for taxes, and invest in a way that matches
+            my new chapter. He was not just an advisor — he was a thinking partner throughout the process.
+          </blockquote>
+          <footer class="testimonial-card__footer">
+            <div class="testimonial-card__avatar">
+              <!--
+                IMAGE PLACEHOLDER — Client avatar / headshot (male entrepreneur)
+                Suggested: Friendly professional male headshot, 50x50px circle
+              -->
+              <img
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&q=80&auto=format&fit=crop&crop=face"
+                alt="Karan Malhotra"
+                class="testimonial-card__photo"
+                loading="lazy" decoding="async"
+                width="50"
+                height="50"
+              />
+            </div>
+            <div class="testimonial-card__info">
+              <strong>Karan Malhotra</strong>
+              <span>Founder &amp; Angel Investor — Mumbai</span>
+            </div>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Testimonial 3 -->
+        <article class="testimonial-card reveal-up" style="--delay: 300ms">
+          <div class="testimonial-card__quote-icon" aria-hidden="true">
+            <i class="ph ph-quotes"></i>
+          </div>
+          <blockquote class="testimonial-card__text">
+            My husband and I were approaching retirement with more anxiety than clarity. Arjun
+            sat with us for hours across multiple sessions, mapped out our expenses, our health risks,
+            our goals — and produced a plan we both understood and trusted. Five years in and we are
+            exactly where he said we would be.
+          </blockquote>
+          <footer class="testimonial-card__footer">
+            <div class="testimonial-card__avatar">
+              <!--
+                IMAGE PLACEHOLDER — Client avatar / headshot (female, mature)
+                Suggested: Elegant professional mature female headshot, 50x50px circle
+              -->
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80&auto=format&fit=crop&crop=face"
+                alt="Lakshmi Krishnamurthy"
+                class="testimonial-card__photo"
+                loading="lazy" decoding="async"
+                width="50"
+                height="50"
+              />
+            </div>
+            <div class="testimonial-card__info">
+              <strong>Lakshmi Krishnamurthy</strong>
+              <span>Retired Senior IPS Officer — Mysuru</span>
+            </div>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Testimonial 4 -->
+        <article class="testimonial-card testimonial-card--wide reveal-up" style="--delay: 200ms">
+          <div class="testimonial-card__quote-icon" aria-hidden="true">
+            <i class="ph ph-quotes"></i>
+          </div>
+          <blockquote class="testimonial-card__text">
+            Most advisors I had spoken to were essentially salespersons. Arjun is different. He
+            told me in our very first meeting that he earns fees from me, not from any product
+            manufacturer — and that changed everything. Three years later, my portfolio is
+            performing, my insurance is right-sized, and I sleep better. That is what good advice does.
+          </blockquote>
+          <footer class="testimonial-card__footer">
+            <div class="testimonial-card__avatar">
+              <!--
+                IMAGE PLACEHOLDER — Client avatar / headshot (male doctor)
+                Suggested: Friendly professional male doctor headshot, 50x50px circle
+              -->
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80&auto=format&fit=crop&crop=face"
+                alt="Dr. Suresh Patel"
+                class="testimonial-card__photo"
+                loading="lazy" decoding="async"
+                width="50"
+                height="50"
+              />
+            </div>
+            <div class="testimonial-card__info">
+              <strong>Dr. Suresh Patel</strong>
+              <span>Cardiothoracic Surgeon — Ahmedabad</span>
+            </div>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+              <i class="ph ph-star-fill" aria-hidden="true"></i>
+            </div>
+          </footer>
+        </article>
+
+      </div><!-- /.testimonials__grid -->
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       FAQ SECTION
+  ============================================================ -->
+  <section class="faq section section--alt" id="faq" aria-label="Frequently asked questions">
+    <div class="container">
+
+      <div class="faq__grid">
+
+        <!-- Left: Header -->
+        <div class="faq__intro reveal-left">
+          <div class="section__label">FAQs</div>
+          <h2 class="section__heading">
+            Common questions, answered honestly.
+          </h2>
+          <p class="faq__subtext">
+            If your question is not here, I am happy to answer it directly.
+            Most questions are better answered over a brief call.
+          </p>
+          <a href="#contact" class="btn btn--primary magnetic-btn">
+            Ask Me Directly
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <!-- Right: Accordion -->
+        <div class="faq__accordion reveal-right" id="faqAccordion" role="list">
+
+          <div class="faq__item" role="listitem">
+            <button
+              class="faq__question"
+              aria-expanded="false"
+              aria-controls="faq-answer-1"
+              id="faq-btn-1"
+            >
+              <span>How do I book an initial consultation?</span>
+              <span class="faq__icon" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div
+              class="faq__answer"
+              id="faq-answer-1"
+              role="region"
+              aria-labelledby="faq-btn-1"
+              hidden
+            >
+              <p>
+                Simply fill in the contact form on this page or call me directly. Initial consultations
+                are complimentary and last approximately 45 minutes. We use this session to understand
+                your goals and determine if we are a good fit — with no obligation to proceed.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button
+              class="faq__question"
+              aria-expanded="false"
+              aria-controls="faq-answer-2"
+              id="faq-btn-2"
+            >
+              <span>What services do you offer and what does advisory cost?</span>
+              <span class="faq__icon" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div
+              class="faq__answer"
+              id="faq-answer-2"
+              role="region"
+              aria-labelledby="faq-btn-2"
+              hidden
+            >
+              <p>
+                My practice is fee-only — meaning I charge a transparent advisory fee and earn no
+                commissions from product manufacturers. Services cover investment planning, retirement
+                strategy, estate advisory, insurance review, and comprehensive financial planning.
+                Fees are discussed openly during the first consultation based on the scope of work.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button
+              class="faq__question"
+              aria-expanded="false"
+              aria-controls="faq-answer-3"
+              id="faq-btn-3"
+            >
+              <span>Do you offer online consultations for clients outside Bengaluru?</span>
+              <span class="faq__icon" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div
+              class="faq__answer"
+              id="faq-answer-3"
+              role="region"
+              aria-labelledby="faq-btn-3"
+              hidden
+            >
+              <p>
+                Yes. While my office is based in Bengaluru, I regularly work with clients in Mumbai,
+                Delhi, Hyderabad, and abroad via video calls. All documentation, reviews, and reports
+                are managed securely online. Geography is not a barrier to working together.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button
+              class="faq__question"
+              aria-expanded="false"
+              aria-controls="faq-answer-4"
+              id="faq-btn-4"
+            >
+              <span>How quickly do you respond to client queries?</span>
+              <span class="faq__icon" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div
+              class="faq__answer"
+              id="faq-answer-4"
+              role="region"
+              aria-labelledby="faq-btn-4"
+              hidden
+            >
+              <p>
+                I guarantee a response to all client messages within 24 hours on business days.
+                For urgent matters — such as market events that affect your portfolio — I proactively
+                reach out rather than waiting to be asked. This level of availability is one reason
+                I deliberately limit the size of my practice.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button
+              class="faq__question"
+              aria-expanded="false"
+              aria-controls="faq-answer-5"
+              id="faq-btn-5"
+            >
+              <span>Are you currently accepting new clients?</span>
+              <span class="faq__icon" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div
+              class="faq__answer"
+              id="faq-answer-5"
+              role="region"
+              aria-labelledby="faq-btn-5"
+              hidden
+            >
+              <p>
+                I take on a limited number of new clients each quarter to ensure every existing
+                client continues to receive the depth of attention they deserve. If you are
+                considering reaching out, I encourage you to do so soon — availability for Q3 2025
+                is limited. Book a free consultation and let us see if it is a good fit.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button
+              class="faq__question"
+              aria-expanded="false"
+              aria-controls="faq-answer-6"
+              id="faq-btn-6"
+            >
+              <span>What makes you different from a bank or distributor?</span>
+              <span class="faq__icon" aria-hidden="true"><i class="ph ph-plus"></i></span>
+            </button>
+            <div
+              class="faq__answer"
+              id="faq-answer-6"
+              role="region"
+              aria-labelledby="faq-btn-6"
+              hidden
+            >
+              <p>
+                Banks and distributors earn commissions every time you invest in a product — which
+                creates an inherent conflict of interest. As a SEBI-registered fee-only advisor, I
+                earn only from the fee you pay me. Every recommendation I make is governed solely
+                by what is best for your financial future, not what earns me a commission. That is a
+                fundamental difference.
+              </p>
+            </div>
+          </div>
+
+        </div><!-- /.faq__accordion -->
+      </div><!-- /.faq__grid -->
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       BOOKING / CONTACT SECTION
+  ============================================================ -->
+  <section class="contact section" id="contact" aria-label="Book a consultation or get in touch">
+    <div class="container">
+
+      <div class="contact__grid">
+
+        <!-- Left: Info Panel -->
+        <div class="contact__info reveal-left">
+          <div class="section__label">Let's Connect</div>
+          <h2 class="section__heading">
+            Ready to take control of your <em>financial future</em>?
+          </h2>
+          <p class="contact__intro">
+            The first step is a conversation. Book a free 45-minute consultation and
+            we will explore what financial clarity looks like for you — with no pressure and no obligation.
+          </p>
+
+          <!-- Contact Details -->
+          <div class="contact__details">
+            <div class="contact__detail-item">
+              <div class="contact__detail-icon"><i class="ph ph-map-pin"></i></div>
+              <div>
+                <strong>Office</strong>
+                <span>UB City Business Centre, Vittal Mallya Road, Central Bengaluru</span>
+              </div>
+            </div>
+            <div class="contact__detail-item">
+              <div class="contact__detail-icon"><i class="ph ph-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <span>+91 98450 72310</span>
+              </div>
+            </div>
+            <div class="contact__detail-item">
+              <div class="contact__detail-icon"><i class="ph ph-envelope-simple"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>arjun@meridianwealth.in</span>
+              </div>
+            </div>
+            <div class="contact__detail-item">
+              <div class="contact__detail-icon"><i class="ph ph-clock"></i></div>
+              <div>
+                <strong>Working Hours</strong>
+                <span>Mon–Fri: 9:00 AM – 6:30 PM IST</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Availability Note -->
+          <div class="contact__availability-note">
+            <i class="ph ph-warning-circle" aria-hidden="true"></i>
+            <p>
+              <strong>Limited availability:</strong> Only a select number of new clients are onboarded each quarter.
+              I recommend reaching out early to secure a consultation slot.
+            </p>
+          </div>
+
+          <!-- WhatsApp Button -->
+          <a
+            href="https://wa.me/919845072310"
+            class="btn btn--whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat on WhatsApp"
+          >
+            <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <!-- Right: Booking Form -->
+        <div class="contact__form-col reveal-right">
+          <div class="contact__form-card">
+            <h3 class="contact__form-title">Book a Free Consultation</h3>
+            <p class="contact__form-sub">Fill in the details below and I will be in touch within 24 hours.</p>
+
+            <form class="contact-form" id="consultationForm" novalidate aria-label="Consultation booking form">
+
+              <div class="form__row form__row--two">
+                <div class="form__group">
+                  <label class="form__label" for="fullName">Full Name <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    class="form__input"
+                    placeholder="Rahul Sharma"
+                    required
+                    autocomplete="name"
+                    aria-required="true"
+                  />
+                  <span class="form__error" role="alert"></span>
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="emailAddress">Email Address <span aria-hidden="true">*</span></label>
+                  <input
+                    type="email"
+                    id="emailAddress"
+                    name="emailAddress"
+                    class="form__input"
+                    placeholder="rahul@example.com"
+                    required
+                    autocomplete="email"
+                    aria-required="true"
+                  />
+                  <span class="form__error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form__row form__row--two">
+                <div class="form__group">
+                  <label class="form__label" for="phoneNumber">Phone Number <span aria-hidden="true">*</span></label>
+                  <input
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    class="form__input"
+                    placeholder="+91 98XXX XXXXX"
+                    required
+                    autocomplete="tel"
+                    aria-required="true"
+                  />
+                  <span class="form__error" role="alert"></span>
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="serviceNeeded">Service Needed</label>
+                  <select id="serviceNeeded" name="serviceNeeded" class="form__input form__select">
+                    <option value="" disabled selected>Select a service…</option>
+                    <option value="investment">Investment Planning</option>
+                    <option value="retirement">Retirement Strategy</option>
+                    <option value="tax-estate">Tax &amp; Estate Advisory</option>
+                    <option value="insurance">Insurance &amp; Risk Review</option>
+                    <option value="business">Business Owner Advisory</option>
+                    <option value="health-check">Financial Health Check</option>
+                    <option value="unsure">Not Sure — Let's Talk</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="preferredDate">Preferred Date</label>
+                  <input
+                    type="date"
+                    id="preferredDate"
+                    name="preferredDate"
+                    class="form__input"
+                    aria-label="Preferred consultation date"
+                  />
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="userMessage">Your Message <span aria-hidden="true">*</span></label>
+                  <textarea
+                    id="userMessage"
+                    name="userMessage"
+                    class="form__input form__textarea"
+                    placeholder="Briefly describe your financial goals or situation…"
+                    rows="4"
+                    required
+                    aria-required="true"
+                  ></textarea>
+                  <span class="form__error" role="alert"></span>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full form__submit magnetic-btn" id="formSubmitBtn">
+                <span class="form__submit-text">
+                  <i class="ph ph-paper-plane-tilt" aria-hidden="true"></i>
+                  Send Request
+                </span>
+                <span class="form__submit-loading" aria-hidden="true">
+                  <i class="ph ph-spinner"></i>
+                  Sending…
+                </span>
+              </button>
+
+              <!-- Success Message -->
+              <div class="form__success" id="formSuccess" role="status" aria-live="polite" hidden>
+                <i class="ph ph-check-circle" aria-hidden="true"></i>
+                <div>
+                  <strong>Request received!</strong>
+                  <p>Thank you, I will contact you shortly to confirm your consultation slot.</p>
+                </div>
+              </div>
+
+            </form><!-- /.contact-form -->
+          </div><!-- /.contact__form-card -->
+        </div>
+
+      </div><!-- /.contact__grid -->
+    </div><!-- /.container -->
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <!-- Brand Column -->
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-mark">AM</span>
+            <span class="footer__logo-text">
+              <span>Arjun Mehta</span>
+              <small>Meridian Wealth Advisory</small>
+            </span>
+          </div>
+          <p class="footer__tagline">
+            Independent. Fee-only. Fiduciary.<br />
+            Financial clarity for professionals and families.
+          </p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+              <i class="ph ph-linkedin-logo"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Twitter / X">
+              <i class="ph ph-x-logo"></i>
+            </a>
+            <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="YouTube">
+              <i class="ph ph-youtube-logo"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <nav class="footer__nav" aria-label="Footer quick links">
+          <h4 class="footer__nav-title">Quick Links</h4>
+          <ul class="footer__nav-list" role="list">
+            <li><a href="#home"         class="footer__nav-link">Home</a></li>
+            <li><a href="#about"        class="footer__nav-link">About</a></li>
+            <li><a href="#services"     class="footer__nav-link">Services</a></li>
+            <li><a href="#experience"   class="footer__nav-link">Experience</a></li>
+            <li><a href="#testimonials" class="footer__nav-link">Testimonials</a></li>
+            <li><a href="#faq"          class="footer__nav-link">FAQ</a></li>
+            <li><a href="#contact"      class="footer__nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Services Links -->
+        <nav class="footer__nav" aria-label="Services links">
+          <h4 class="footer__nav-title">Services</h4>
+          <ul class="footer__nav-list" role="list">
+            <li><a href="#services" class="footer__nav-link">Investment Planning</a></li>
+            <li><a href="#services" class="footer__nav-link">Retirement Strategy</a></li>
+            <li><a href="#services" class="footer__nav-link">Tax &amp; Estate</a></li>
+            <li><a href="#services" class="footer__nav-link">Insurance Review</a></li>
+            <li><a href="#services" class="footer__nav-link">Business Advisory</a></li>
+            <li><a href="#services" class="footer__nav-link">Financial Health Check</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contact Info -->
+        <div class="footer__contact">
+          <h4 class="footer__nav-title">Contact</h4>
+          <ul class="footer__contact-list" role="list">
+            <li>
+              <i class="ph ph-map-pin" aria-hidden="true"></i>
+              <span>UB City Business Centre,<br />Vittal Mallya Road, Bengaluru 560 001</span>
+            </li>
+            <li>
+              <i class="ph ph-phone" aria-hidden="true"></i>
+              <a href="tel:+919845072310">+91 98450 72310</a>
+            </li>
+            <li>
+              <i class="ph ph-envelope-simple" aria-hidden="true"></i>
+              <a href="mailto:arjun@meridianwealth.in">arjun@meridianwealth.in</a>
+            </li>
+            <li>
+              <i class="ph ph-clock" aria-hidden="true"></i>
+              <span>Mon–Fri, 9:00 AM – 6:30 PM IST</span>
+            </li>
+          </ul>
+        </div>
+
+      </div><!-- /.footer__grid -->
+
+      <!-- Footer Bottom -->
+      <div class="footer__bottom">
+        <p class="footer__legal">
+          SEBI Registered Investment Advisor | Reg. No. INA200013XXX |
+          © <span id="currentYear">2025</span> Arjun Mehta / Meridian Wealth Advisory. All rights reserved.
+        </p>
+        <p class="footer__disclaimer">
+          Investments are subject to market risk. Past performance is not indicative of future results.
+          This website is for informational purposes only and does not constitute investment advice.
+        </p>
+      </div>
+
+    </div><!-- /.container -->
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ph ph-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
